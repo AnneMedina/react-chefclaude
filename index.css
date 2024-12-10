@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    min-width: 500px;
+}
+
+/**
+header box shadow code:
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+*/
+
+header {
+    height: 90px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chef-logo {
+    height: 50px;
+    padding-right: 10px;
+}
+
+.chef-title {
+    font-size: 1.8rem;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    
+}
+
+.ingredient-input {
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.10);
+    margin-right: 10px;
+    font-size: 0.8rem;
+    padding: 8px;
+    width: 60%;
+}
+
+.ingredient-add {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px 30px;
+    min-width: 200px;
+}
